@@ -96,7 +96,7 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 rounded-xl border-2 border-[#4F46E5] text-[#4F46E5] font-bold hover:bg-[#EEF2FF] transition-all"
             >
-              <Play size={16} fill="currentColor" /> Contact Sales
+              <Play size={16} fill="currentColor" /> Request Demo
             </motion.a>
           </div>
 
