@@ -22,7 +22,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-white pt-24 pb-12 lg:pt-28 lg:pb-16"
+      className="relative min-h-screen flex items-center overflow-hidden bg-white pt-20"
     >
       {/* Wave BG */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -51,7 +51,7 @@ export function HeroSection() {
         </svg>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-16 items-center">
         {/* Left */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -96,7 +96,7 @@ export function HeroSection() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 rounded-xl border-2 border-[#4F46E5] text-[#4F46E5] font-bold hover:bg-[#EEF2FF] transition-all"
             >
-              <Play size={16} fill="currentColor" /> Request Demo
+              <Play size={16} fill="currentColor" /> Demo
             </motion.a>
           </div>
 
